@@ -2,7 +2,7 @@ export class Hero {
 
     constructor(
         private id: number,
-        private name: string,
+        public name: string,
         private power: string,
         private alterEgo?: string
     ) { }
